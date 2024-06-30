@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  margin: 2vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.informações{
+  margin: 200px;
+
+}
+header ul {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+header li {
+  margin: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.image img {
+  border: 2px solid black; /* Borda preta */
+  border-radius: 50%; /* Imagem redonda */
+  width: 350px; /* Largura da imagem */
+  height: 350px; /* Altura da imagem */
+  object-fit: cover; /* Ajustar a imagem dentro do círculo */
+  margin: 20px;
+}
+/* SEÇÕES */
+.Seção1 {
+  display: flex;
+  align-items: center;
+}
+
+.informações {
+  align-items: center;
+}
+
+/* SEÇÃO 2 */
+.Seção2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2%;
+}
+
+.card {
+  margin: auto;
+  width: 50%;
+}
+
+/* SEÇÃO 3 */
+#carouselExampleIndicators {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center; /* Alterado de align-items para justify-content */
+}
+
+/* SEÇÃO 4 */
+.Seção4 {
+  text-align: center;
+}
+
+.colegas {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colegas li {
+  margin: 0 10px; /* Ajuste conforme necessário */
+  text-align: center;
+}
+
+.img-colegas {
+  width: 20vw; /* Alterado de 20vb para 20vw */
+  height: 20vw; /* Alterado de 20vb para 20vw */
+}

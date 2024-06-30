@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  
+    .Seção1 {
+      flex-direction: column; 
+    }
+    
+    .informações {
+      order: 2;
+    }
+  
+    .image {
+      order: 1; 
+    }
+  }
+  
+ 
+@media screen and (max-width: 768px) {
+  
+    .row-cols-md-4 {
+      flex-wrap: nowrap; 
+      overflow-x: auto; 
+      -webkit-overflow-scrolling: touch; 
+      scrollbar-width: thin; 
+    }
+  
+    .card {
+      flex: 0 0 auto; 
+      width: 250px; 
+      margin-right: 20px; 
+    }
+  
+    .col:last-child .card {
+      margin-right: 0; /* Remove a margem direita do último card na linha */
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+  
+    #carouselExampleIndicators .carousel-inner {
+      max-height: 300px; /* Defina a altura máxima do carrossel para dispositivos menores */
+      width: 100%;
+    }
+  }
+  
